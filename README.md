@@ -84,7 +84,7 @@ http://localhost:3001/soma
 ```text
 15
 ```
-
+Imagens/soma.png
 ---
 
 ### ➖ Subtração
