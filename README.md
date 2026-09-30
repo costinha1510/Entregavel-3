@@ -86,7 +86,7 @@ POST http://localhost:3001/soma
 
 ```json
 {
-    "numero1": 10,
+    "numero1": 20,
     "numero2": 5
 }
 ```
@@ -94,7 +94,7 @@ POST http://localhost:3001/soma
 **Resultado esperado:**
 
 ```text
-15
+25
 ```
 
 #### 📸 Evidência no Postman
@@ -115,7 +115,7 @@ POST http://localhost:3001/subtracao
 
 ```json
 {
-    "numero1": 10,
+    "numero1": 20,
     "numero2": 5
 }
 ```
@@ -123,7 +123,7 @@ POST http://localhost:3001/subtracao
 **Resultado esperado:**
 
 ```text
-5
+15
 ```
 
 #### 📸 Evidência no Postman
@@ -144,7 +144,7 @@ POST http://localhost:3001/multiplicacao
 
 ```json
 {
-    "numero1": 10,
+    "numero1": 20,
     "numero2": 5
 }
 ```
@@ -152,7 +152,7 @@ POST http://localhost:3001/multiplicacao
 **Resultado esperado:**
 
 ```text
-50
+100
 ```
 
 #### 📸 Evidência no Postman
@@ -173,7 +173,7 @@ POST http://localhost:3001/divisao
 
 ```json
 {
-    "numero1": 10,
+    "numero1": 20,
     "numero2": 5
 }
 ```
@@ -181,7 +181,7 @@ POST http://localhost:3001/divisao
 **Resultado esperado:**
 
 ```text
-2
+4
 ```
 
 #### 📸 Evidência no Postman
