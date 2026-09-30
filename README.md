@@ -1,46 +1,45 @@
-# Entregavel-3
+# 🧮 API Calculadora — Node.js e Express
 
-# API Calculadora — Node.js e Express
-
-Projeto desenvolvido para implementar uma API utilizando **Node.js** e **Express**, permitindo realizar operações matemáticas por meio de requisições HTTP e testar os resultados utilizando o **Postman**.
+Projeto desenvolvido para criar uma API utilizando **Node.js** e **Express**, permitindo realizar operações matemáticas através de requisições HTTP e testar os resultados utilizando o **Postman**.
 
 ## 📌 Funcionalidades
 
 A API possui quatro operações matemáticas:
 
-* ➕ **Soma**
-* ➖ **Subtração**
-* ✖️ **Multiplicação**
-* ➗ **Divisão**
+* ➕ Soma
+* ➖ Subtração
+* ✖️ Multiplicação
+* ➗ Divisão
 
 Cada operação possui uma rota própria.
 
 ## 🛠️ Tecnologias utilizadas
 
-* **Node.js**
-* **Express**
-* **Postman**
-* **JavaScript**
+* Node.js
+* Express
+* JavaScript
+* Postman
 
 ## 📂 Estrutura do projeto
 
 ```text
-entregavel-3/
+Entregavel-3/
 │
-├── node_modules/
+├── imagem/
+│   ├── soma.png
+│   ├── subtracao.png
+│   ├── multiplicacao.png
+│   └── divisao.png
+│
 ├── index.js
 ├── package.json
 ├── package-lock.json
 └── README.md
 ```
 
-> A pasta `node_modules` não deve ser enviada para o GitHub. Utilize um arquivo `.gitignore` contendo `node_modules/`.
-
-## 🚀 Como executar o projeto
+## 🚀 Como executar
 
 ### 1. Instalar as dependências
-
-No terminal, dentro da pasta do projeto:
 
 ```bash
 npm install
@@ -52,22 +51,22 @@ npm install
 node index.js
 ```
 
-O servidor será executado na porta **3001**.
+O servidor será executado na porta **3001**:
 
 ```text
 http://localhost:3001
 ```
 
-## 📮 Testando com o Postman
+## 📮 Testando no Postman
 
-As operações são realizadas através de requisições **POST**.
+Todas as operações são realizadas utilizando o método **POST**.
 
 ### ➕ Soma
 
-**URL:**
+**Endpoint:**
 
 ```text
-http://localhost:3001/soma
+POST http://localhost:3001/soma
 ```
 
 **Body → raw → JSON:**
@@ -79,20 +78,20 @@ http://localhost:3001/soma
 }
 ```
 
-**Resultado esperado:**
+**Resultado esperado:** `15`
 
-```text
-15
-```
-Imagens/soma.png
+#### 📸 Teste no Postman
+
+![Teste da Soma](./imagem/soma.png)
+
 ---
 
 ### ➖ Subtração
 
-**URL:**
+**Endpoint:**
 
 ```text
-http://localhost:3001/subtracao
+POST http://localhost:3001/subtracao
 ```
 
 **Body → raw → JSON:**
@@ -104,20 +103,20 @@ http://localhost:3001/subtracao
 }
 ```
 
-**Resultado esperado:**
+**Resultado esperado:** `5`
 
-```text
-5
-```
+#### 📸 Teste no Postman
+
+![Teste da Subtração](./imagem/subtracao.png)
 
 ---
 
 ### ✖️ Multiplicação
 
-**URL:**
+**Endpoint:**
 
 ```text
-http://localhost:3001/multiplicacao
+POST http://localhost:3001/multiplicacao
 ```
 
 **Body → raw → JSON:**
@@ -129,20 +128,20 @@ http://localhost:3001/multiplicacao
 }
 ```
 
-**Resultado esperado:**
+**Resultado esperado:** `50`
 
-```text
-50
-```
+#### 📸 Teste no Postman
+
+![Teste da Multiplicação](./imagem/multiplicacao.png)
 
 ---
 
 ### ➗ Divisão
 
-**URL:**
+**Endpoint:**
 
 ```text
-http://localhost:3001/divisao
+POST http://localhost:3001/divisao
 ```
 
 **Body → raw → JSON:**
@@ -154,24 +153,28 @@ http://localhost:3001/divisao
 }
 ```
 
-**Resultado esperado:**
+**Resultado esperado:** `2`
 
-```text
-2
-```
+#### 📸 Teste no Postman
+
+![Teste da Divisão](./imagem/divisao.png)
+
+---
 
 ## 📋 Rotas da API
 
-| Operação      | Método | Endpoint         |
-| ------------- | ------ | ---------------- |
-| Soma          | POST   | `/soma`          |
-| Subtração     | POST   | `/subtracao`     |
-| Multiplicação | POST   | `/multiplicacao` |
-| Divisão       | POST   | `/divisao`       |
+| Operação         | Método | Endpoint         |
+| ---------------- | ------ | ---------------- |
+| ➕ Soma           | POST   | `/soma`          |
+| ➖ Subtração      | POST   | `/subtracao`     |
+| ✖️ Multiplicação | POST   | `/multiplicacao` |
+| ➗ Divisão        | POST   | `/divisao`       |
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é desenvolver uma API básica utilizando **Node.js e Express**, praticando a criação de rotas, recebimento de dados em formato JSON e realização de operações matemáticas através de requisições HTTP.
+O objetivo deste projeto é desenvolver uma API utilizando **Node.js e Express**, praticando a criação de rotas, o recebimento de dados em formato JSON e a realização de operações matemáticas através de requisições HTTP.
+
+Os testes das funcionalidades foram realizados utilizando o **Postman**, com as respectivas evidências apresentadas neste README.
 
 ## 👨‍💻 Autor
 
