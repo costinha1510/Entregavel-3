@@ -2,22 +2,34 @@
 
 Projeto desenvolvido para criar uma API utilizando **Node.js** e **Express**, permitindo realizar operações matemáticas através de requisições HTTP e testar os resultados utilizando o **Postman**.
 
+Além da API, foi desenvolvido um **frontend** para apresentar uma interface para a calculadora.
+
 ## 📌 Funcionalidades
 
-A API possui quatro operações matemáticas:
+A aplicação possui quatro operações matemáticas:
 
 * ➕ Soma
 * ➖ Subtração
 * ✖️ Multiplicação
 * ➗ Divisão
 
-Cada operação possui uma rota própria.
+Cada operação possui uma rota própria na API.
+
+## 🖥️ Frontend
+
+Foi desenvolvido um frontend para a aplicação, proporcionando uma interface visual para utilização da calculadora.
+
+### 📸 Interface da aplicação
+
+![Frontend da aplicação](./app.png)
 
 ## 🛠️ Tecnologias utilizadas
 
 * **Node.js**
 * **Express**
 * **JavaScript**
+* **HTML**
+* **CSS**
 * **Postman**
 
 ## 📂 Estrutura do projeto
@@ -29,6 +41,7 @@ Entregavel-3/
 ├── subtracao.png
 ├── multiplicacao.png
 ├── divisao.png
+├── app.png
 ├── index.js
 ├── package.json
 ├── package-lock.json
@@ -59,7 +72,7 @@ http://localhost:3001
 
 ## 📮 Testando com o Postman
 
-Todas as operações são realizadas utilizando o método **POST**.
+Todas as operações da API são realizadas utilizando o método **POST**.
 
 ### ➕ Soma
 
@@ -188,9 +201,9 @@ POST http://localhost:3001/divisao
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é desenvolver uma API utilizando **Node.js e Express**, praticando a criação de rotas, o recebimento de dados em formato JSON e a realização de operações matemáticas através de requisições HTTP.
+O objetivo deste projeto é desenvolver uma aplicação utilizando **Node.js e Express**, praticando a criação de APIs, rotas HTTP, recebimento de dados em formato JSON e realização de operações matemáticas.
 
-Os testes das funcionalidades foram realizados utilizando o **Postman**, com evidências das operações apresentadas neste README.
+O projeto também inclui uma interface frontend e testes das funcionalidades realizados através do **Postman**, com as respectivas evidências apresentadas neste README.
 
 ## 👨‍💻 Autor
 
