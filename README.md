@@ -157,7 +157,7 @@ POST http://localhost:3001/multiplicacao
 
 #### 📸 Evidência no Postman
 
-![Teste da Multiplicação](./multiplicacao.png)
+![Teste da Multiplicação](./mutiplicacao.png)
 
 ---
 
