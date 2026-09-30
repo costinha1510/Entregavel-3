@@ -15,31 +15,31 @@ Cada operação possui uma rota própria.
 
 ## 🛠️ Tecnologias utilizadas
 
-* Node.js
-* Express
-* JavaScript
-* Postman
+* **Node.js**
+* **Express**
+* **JavaScript**
+* **Postman**
 
 ## 📂 Estrutura do projeto
 
 ```text
 Entregavel-3/
 │
-├── imagem/
-│   ├── soma.png
-│   ├── subtracao.png
-│   ├── multiplicacao.png
-│   └── divisao.png
-│
+├── soma.png
+├── subtracao.png
+├── multiplicacao.png
+├── divisao.png
 ├── index.js
 ├── package.json
 ├── package-lock.json
 └── README.md
 ```
 
-## 🚀 Como executar
+## 🚀 Como executar o projeto
 
 ### 1. Instalar as dependências
+
+Abra o terminal na pasta do projeto e execute:
 
 ```bash
 npm install
@@ -57,7 +57,7 @@ O servidor será executado na porta **3001**:
 http://localhost:3001
 ```
 
-## 📮 Testando no Postman
+## 📮 Testando com o Postman
 
 Todas as operações são realizadas utilizando o método **POST**.
 
@@ -78,11 +78,15 @@ POST http://localhost:3001/soma
 }
 ```
 
-**Resultado esperado:** `15`
+**Resultado esperado:**
 
-#### 📸 Teste no Postman
+```text
+15
+```
 
-![Teste da Soma](./imagem/soma.png)
+#### 📸 Evidência no Postman
+
+![Teste da Soma](./soma.png)
 
 ---
 
@@ -103,11 +107,15 @@ POST http://localhost:3001/subtracao
 }
 ```
 
-**Resultado esperado:** `5`
+**Resultado esperado:**
 
-#### 📸 Teste no Postman
+```text
+5
+```
 
-![Teste da Subtração](./imagem/subtracao.png)
+#### 📸 Evidência no Postman
+
+![Teste da Subtração](./subtracao.png)
 
 ---
 
@@ -128,11 +136,15 @@ POST http://localhost:3001/multiplicacao
 }
 ```
 
-**Resultado esperado:** `50`
+**Resultado esperado:**
 
-#### 📸 Teste no Postman
+```text
+50
+```
 
-![Teste da Multiplicação](./imagem/multiplicacao.png)
+#### 📸 Evidência no Postman
+
+![Teste da Multiplicação](./multiplicacao.png)
 
 ---
 
@@ -153,11 +165,15 @@ POST http://localhost:3001/divisao
 }
 ```
 
-**Resultado esperado:** `2`
+**Resultado esperado:**
 
-#### 📸 Teste no Postman
+```text
+2
+```
 
-![Teste da Divisão](./imagem/divisao.png)
+#### 📸 Evidência no Postman
+
+![Teste da Divisão](./divisao.png)
 
 ---
 
@@ -174,7 +190,7 @@ POST http://localhost:3001/divisao
 
 O objetivo deste projeto é desenvolver uma API utilizando **Node.js e Express**, praticando a criação de rotas, o recebimento de dados em formato JSON e a realização de operações matemáticas através de requisições HTTP.
 
-Os testes das funcionalidades foram realizados utilizando o **Postman**, com as respectivas evidências apresentadas neste README.
+Os testes das funcionalidades foram realizados utilizando o **Postman**, com evidências das operações apresentadas neste README.
 
 ## 👨‍💻 Autor
 
